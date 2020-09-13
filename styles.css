@@ -1,0 +1,143 @@
+body{
+	background-image: url('img01.jpg');
+}
+#container{
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 700px;
+	
+}
+header{
+	background-image: url('img02.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section{
+	float:right;
+	text-indent: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 100%;
+	width: 500px;
+}
+nav{
+	background-image: url('img05.jpg');
+	background-size: cover;
+	padding: 0.5px;
+}
+nav ul li{
+	display:inline;
+	list-style-type:none;
+	margin-left:5px;
+	margin-right:5px;
+	font-size: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:yellow;
+	padding:10px;
+	padding-right:10xp;
+	padding-left:10px;
+}
+h1{
+	color: red;
+	margin-top: 2px;
+}
+h2{
+	color: red;
+}
+main{
+	background-color: white;
+	background-size: cover;
+}
+p{
+	letter-spacing: 2px;
+	padding: 10px;
+}
+#kep2{
+	width: 500px;
+	height: 200px;
+}
+#kep3{
+	float:right;
+	padding: 20px;
+	width: 140px;
+}
+#title{
+	float:left;
+	background-image: url('img03.jpg');
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 200px;
+	width: 190px;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 0px;
+}
+#kep{
+	padding: 20px;
+}
+#search{
+	float:left;
+	width: 190px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: black;
+	margin-top: 10px;
+}
+#head2{
+	background-image: url('img08.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: bold;
+}
+input[type=submit]{
+	float:right;
+	margin: 0 auto;
+	padding-right:: 1px;
+	text-indent: 2px;
+	background-color:red;
+	border: 1px solid red;
+	color: white;
+	font-weight:bold;
+	margin-right: 10px;
+}
+#news{
+	float:left;
+	width: 190px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: black;
+	margin-top: 10px;
+	height: 410px;
+	letter-spacing: 0px;
+}
+#head3{
+	background-image: url('img08.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#sagittis{
+	float:left;
+	width: 190px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: black;
+	margin-top: 10px;
+	height: 410px;
+	letter-spacing: 0px;
+}
+#head4{
+	background-image: url('img08.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer{
+	float:left;
+	letter-spacing: 0px;
+}
